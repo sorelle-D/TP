@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="java.java">
 </head>
 
 
@@ -12,12 +13,13 @@
 
 <header class="menu1">
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; 
-    <a href="index.html">Acceuil</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-    <a href="apropos.html">À propos</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-    <a href="apropos.html">À propos</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-    <a href="apropos.html">Contact</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-    <a href="apropos.html">Inscription</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-    <a href="apropos.html"> <img class="imgcompte" src="imgs/compte.PNG" alt="">Mon compte <img class="flechecompte" src="imgs/fleche.PNG"></a>
+    <div class="acceuil"> <a href="index.html">Acceuil</a> </div>
+    <a href="apropos.html">À propos</a>  </div>
+    <a href="Contacts.html">Contact</a> </div>
+    <a href="Inscription.html">Inscription</a> </div>
+    <a href="Études.html">Étude</a> </div>
+    
+    <a href="Connexion.html"> <img class="imgcompte" src="imgs/compte.PNG" alt=""> Mon compte <img class="flechecompte" src="imgs/fleche.PNG"></a> </div>
 </header>
 
 
@@ -25,9 +27,9 @@
     <img class="imageMenu" src="imgs/alloprof.png" alt="image entete">
     <img class="logo" src="imgs/logo.png" alt="">
     <div  class="menu2">
-        <a href=""> Matière <img class="fleche" src="imgs/fleche.PNG"></a>
-        <a href=""> Niveaux <img class="fleche" src="imgs/fleche.PNG"></a>
-        <a href=""> Explorer <img class="fleche" src="imgs/fleche.PNG"></a>  
+        <a href=""> Matière </a>
+        <a href=""> Niveaux </a>
+        <a href=""> Explorer </a>  
     </div>
 </header>
 
@@ -35,19 +37,77 @@
 
 
 
-<body style="background-color: rgb(245, 245, 245);">
+<header class="BodyHeder">
+
+  <div class="BlocBox">
+
+   <div class="box"> 
+      <div class="imageBox"><img src="imgs/jeu-removebg-preview.png"></div>
+      <p class="titre">Jeux</p>
+
+    </div>
+
+    <div class="box"> 
+      <div class="imageBox"><img src="imgs/video.png"  style="width: 60px; height: 50px;"></div>
+      <p class="titre">Vidéo</p>
+
+    </div>
+
+
+    <div class="box"> 
+      <div class="imageBox"><img src="imgs/zone.png"></div>
+      <p class="titre">Zone d'entre aide</p>
+
+    </div>
+  </div>
+
+
+    <div class="BlocBox">
+
+    <div class="box"> 
+      <div class="imageBox"><img src="imgs/exercice.png" style="width: 75px; height: 70px;"></div>
+      <p class="titre">Exercices</p>
+
+    </div>
+
+    <div class="box"> 
+      <div class="imageBox"><img src="imgs/exam.png" style="width: 60px; height: 60px;"></div>
+      <p class="titre">Exam et trucs d'étude</p>
+
+    </div>
+
+    <div class="box"> 
+      <div class="imageBox"><img src="imgs/mini.png"></div>
+      <p class="titre">MiniRécups</p>
+
+    </div>
+
+    </div>
+</header>
+
+
+
+
+
+<body style="background-color: rgba(244, 242, 239)">
+  
+
+  <!-- ARTICLES -->
+
+
+  <h3 style="text-align: center; font-size: 30px;"> En vedette </h3>
+
+  <section class="LongArticle"> <!-- Premier article -->
     
-
-
-  <!-- NEWS GRID -->
-
-
-  <section class="text-nouvelle"> <!-- Premier article -->
-    <div class="boite">
-      <div class="image>"> <img style="height: 160px; width: 330px;" src="imgs/nouvelle2.jpg" alt=""></div>
-      <div class="label">Nouvelle</div>
-      <h3> une foule de jeux éducatif et <br> exercices gratuits </h3>
+      <div> <img class="images" src="imgs/fille.avif" alt=""></div>
+    
+      <div >
+       <h4 class="label">Nouvelle</h4>
+        <p> Tes meilleurs ressources pour un début d'année réussi </p>
       <button> Lire l'article </button>
+      </div>
+  
+
     </div>
 </section>
 
@@ -56,31 +116,31 @@
 
   <section class="text-nouvelle">
     <div class="boite">
-      <div class="images>"> <img style="height: 160px; width: 330px;" src="imgs/nouvelle2.jpg" alt=""></div>
-      <div class="label">Nouvelle</div>
-      <h3> une foule de jeux éducatif et <br> exercices gratuits </h3>
+      <div > <img class="images" src="imgs/nouvelle2.jpg" alt=""></div>
+      <h4 class="label">Nouvelle</h4>
+      <p> une foule de jeux éducatif et <br> exercices gratuits </p>
       <button> Lire l'article </button>
     </div>
     </section>
 
     <section class="text-nouvelle">
         <div class="boite">
-          <div class="images>"> <img style="height: 160px; width: 330px;" src="imgs/nouvelle2.jpg" alt=""></div>
-          <div class="label">Nouvelle</div>
-          <h3> une foule de jeux éducatif et <br> exercices gratuits </h3>
+          <div> <img class="images" src="imgs/ordie.jfif" alt=""></div>
+          <h4 class="label">Nouvelle</h4>
+          <p> Le français n'est pas simple <br>pour toi? éducafrançais, oui! </p>
+          <button> Lire l'article </button>
+        </div>
+        </section>
+
+    <section class="text-nouvelle">
+        <div class="boite">
+          <div> <img class="images" src="imgs/eleves.avif" alt=""></div>
+          <h4 class="label">Nouvelle</h4>
+          <p> Histoires touchantes : <br>éducavenir change des vies </p>
           <button> Lire l'article </button>
         </div>
     </section>
 
-        <section class="text-nouvelle">
-            <div class="boite">
-              <div class="images>"> <img style="height: 160px; width: 330px;" src="imgs/nouvelle2.jpg" alt=""></div>
-              <div class="label">Nouvelle</div>
-              <h3> une foule de jeux éducatif et <br> exercices gratuits </h3>
-              <button> Lire l'article </button>
-            </div>
-
-    </section>
 </div>
 
 
@@ -90,6 +150,55 @@
 
 
 <footer>
+ <div class=HautFooter> 
 
+        <a href="instagrame.com">  <img src="imgs/logo.png" style="height: 120px; width: 120px;"></a>
+
+      <div class="media" style="padding-right: 60px;">
+
+        <a href="https://facebook.com"  target="_blank">  <img src="imgs/facebook.png"></a>
+        <a href="https://youtube.com"  target="_blank">  <img src="imgs/youtube.png"></a>
+        <a href="https://instagram.com" target="_blank">  <img src="imgs/insta.png"></a>
+        <a href="https://titok.com"  target="_blank">  <img src="imgs/tiktok.png"></a>
+        
+    </div>
+
+    </div>
+
+   <hr class="ligne">
+
+
+
+    <div class="milieuFooter">
+      <p> Reçois toutes les infos et astuces d'éducavenir par courriel. <br>
+        À vos marque prêt étudié !!</p>
+
+          <ul class="lienpied">
+            <li>Équipe et carrières </li>
+            <li>Concours et sondages </li>
+            <li>Nos partenaire</li>
+            <li>Salle de presse </li>
+            <li>Protection des renseignements personnels</li>
+            <li>Conditions d'utilisation </li>
+            <li>Matériel promotionnel</li>
+          </ul>
+          </div>
+
+          <a href="apropos.html"> <button class="boutonfooter">Abonne-toi ici</button></a>
+          <p class="copyright" > © Édicavenir 2025</p>
+        
+    </div>
+    
+    
 </footer>
+
+
+
+
+
+
+<script>
+
+
+</script>
 </html>
