@@ -278,6 +278,45 @@ button{
 
 
 
+<<<<<<< HEAD
+=======
+  .article{ /* Réparti les élements sur la page */
+    display: flex;
+    justify-content: space-around;
+  }
+  
+/* NEWS GRID */
+.text-nouvelle {
+    padding: 22px 28px;
+    display: grid;
+    gap: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  
+  /* Boite qui contien les nouvelle */
+  .boite {
+    background-color:rgb(254, 254, 254);
+    padding: 8px;
+    height: 300px;
+  }
+  
+  .images{ /* images des articles */
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+  
+  }
+  
+  .boite{
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    width: 80%;
+  }
+  
+  
+>>>>>>> 9e810e29a1105250fdb4d9e7c0479eeb6803f8f6
 
 
 
