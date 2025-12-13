@@ -1,13 +1,101 @@
+
+
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 header{
-    font-size:24px ;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:24px ;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-  .grayhead{
-    background-color: rgb(222, 222, 222);
-    width: 100%;
-    height: 12px;
+.grayhead{
+  background-color: rgb(222, 222, 222);
+  width: 100%;
+  height: 12px;
+}
+
+
+  /********************************************************/
+
+
+ /* image de "mon compte" */
+.imgcompte{
+  height: 24px;
+  width: 13%;
+}
+
+/* Premier menu */
+
+.menu1PourAutrePage{
+  background-color: rgb(174, 228, 207);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  gap : 100px;
+  align-items: center;
+}
+
+.acceuil{
+  margin-left: 60px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.titre{
+  display: flex;
+  position: fixed;
+  padding-top: 7%;
+  padding-left: 12%;
+}
+
+
+  /********************************************************/
+
+
+ /** entete contenant l'image**/
+.entetePourAutrePage{
+  background-color:rgb(192, 246, 223);
+  width: 100%;
+  height: 300px;
+}
+
+.logo{
+  float: left; /* placer le logo à gauche */
+  position: absolute; /* placer le logo au dessus de l'image */
+  height: 30%;
+  width: 15%;
+  top: 1px; /* ajoute l'espace depuis le haut de l'image */
+}
+
+.menu2{
+  position: absolute; /* placer le menu2 au dessus de l'image */
+  top: 75px;              /* ajoute l'espace depuis le haut de l'image */
+  left: 35%;              /* centre */
+  display: flex;
+  gap: 100px;              /* espace les element entre eux */
+}
+
+  .matiere{
+    padding-left: 15%;
   }
+  
+  /* images de la mine fleche */
+  .flechecompte{
+    height: 30%;
+    
+  }
+  
+
+
+/*****************************************************************************************************/
+
+  /*body*/
+
   .boite{
 
     justify-content: center; /*pour centrer le div et le fomulaire*/ 
@@ -15,62 +103,10 @@ header{
     display: flex;
     padding-right: 10%;
     width: 100%;
-
 }
-.menu1{
-    background-color: rgb(25, 179, 134);
-    width: 100%;
-    height: 40px;
-  }
 
-  a{
-    color: black;
-    text-decoration: none;
-  }
 
-   /** entete contenant l'image**/
-  
-  .entete{
-    background-color: rgb(39, 184, 138);
-    width: 100%;
-    height: 150px;
-  }
 
-  /* imge du viage vert dans l'entete */
-  .imageMenu{
-    position: absolute; /* placer le logo au dessus de l'entete */
-    left: 40%;          /* Centrer*/
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    height: 265px;
-  }
-
-  .logo{
-    float: left; /* placer le logo à gauche */
-    position: absolute; /* placer le logo au dessus de l'image */
-    height: 30%;
-    width: 15%;
-    top: 1px; /* ajoute l'espace depuis le haut de l'image */
-  }
-  .menu2{
-    position: absolute; /* placer le menu2 au dessus de l'image */
-    top: 75px;              /* ajoute l'espace depuis le haut de l'image */
-    left: 36.5%;              /* centre */
-    display: flex;
-    gap: 70px;              /* espace les element entre eux */
-  }
-
-  /* images des minis fleches */
-  .fleche{
-    height: 40%;
-  }
-  .flechecompte{
-    height: 30%;
-    
-  }
-
-  /*body*/
 .main{
 
 }

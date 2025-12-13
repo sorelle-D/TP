@@ -1,3 +1,5 @@
+
+
 body{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -31,7 +33,16 @@ header{
   flex-direction: row;
   gap : 100px;
   align-items: center;
-  font-size: 22px;
+}
+
+.menu1PourAutrePage{
+  background-color: rgb(174, 228, 207);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  gap : 100px;
+  align-items: center;
 }
 
 .acceuil{
@@ -42,6 +53,12 @@ a{
   color: black;
   text-decoration: none;
   text-align: center;
+}
+
+.titre{
+  display: flex;
+  padding-top: 7%;
+  padding-left: 12%;
 }
 
 
@@ -56,16 +73,21 @@ a{
   height: 300px;
 }
 
-/* imge du viage vert dans l'entete pour la page index */
+.entetePourAutrePage{
+  background-color:rgb(192, 246, 223);
+  width: 100%;
+  height: 300px;
+}
+
+/* imge du viage vert dans l'entete */
 .imageMenu{
   position: absolute; /* placer le logo au dessus de l'entete */
   left: 40%;          /* Centrer*/
   margin-left: auto;
   margin-right: auto;
   width: 20%;
-  height: 300px;
+  height: 265px;
 }
-
 
 .logo{
   float: left; /* placer le logo à gauche */
@@ -76,16 +98,18 @@ a{
 }
 
 .menu2{
-  position:sticky; /* placer le menu2 au dessus de l'image */
+  position: absolute; /* placer le menu2 au dessus de l'image */
   top: 75px;              /* ajoute l'espace depuis le haut de l'image */
+  left: 35%;              /* centre */
   display: flex;
   gap: 100px;              /* espace les element entre eux */
 }
 
-/* images des minis fleches */
-.fleche{
-  height: 40%;
+.matiere{
+  padding-left: 15%;
 }
+
+/* images de la mine fleche */
 .flechecompte{
   height: 30%;
   
@@ -118,7 +142,7 @@ a{
   align-items:center; /* Aligner au centre */
   justify-content: center;
   box-shadow: 7px 7px #e3e3e3 ;
-  width: 22%;
+  width: 19%;
   height: 80px;
 }
 
@@ -134,7 +158,7 @@ a{
 
 
 
-/* BODY */
+/* BODY PAGE INDEX */
 
 
 .article{ /* Réparti les élements sur la page */
@@ -195,6 +219,66 @@ button{
   font-size: small;
   color: aquamarine;
 }
+
+
+
+/********************************************************/
+
+  /* BODY PAGE À PROPOS */
+
+
+  /* ligne */
+  .ligneApropos{
+    width: 90%;
+    display: flex;
+    border-width: 2px;
+    border-color: black;
+    margin-bottom: 0;
+    margin-top: 0; 
+    margin-right: 15%;
+  }
+
+
+    /* Text dans le haut de la page */
+  .flex1Apropos{
+    margin-left: 2%;
+  }
+
+  /* BOITE DES CONTENUE DANS LA PAGE  */
+
+  .ensembles-TopBox{
+    display: grid;
+    padding-top: 2%; 
+    padding-left: 10%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+ 
+
+
+  .boxApropos{
+    text-align: center;
+    display: grid;
+    background-color: rgb(245, 243, 239);
+    box-shadow: 10px 10px rgb(239, 234, 228);
+    width: 60%;
+    height: 110%;
+  }
+
+
+
+
+  .flecheApropos{
+    text-align: end;
+    font-size: 50px;
+    margin-left: 15%;
+    color: aquamarine;
+    padding-top: 39%;
+    
+  }
+
+
+
 
 
   /********************************************************/
@@ -274,49 +358,6 @@ button{
     padding-bottom: 1%;
     
   }
-
-
-
-
-<<<<<<< HEAD
-=======
-  .article{ /* Réparti les élements sur la page */
-    display: flex;
-    justify-content: space-around;
-  }
-  
-/* NEWS GRID */
-.text-nouvelle {
-    padding: 22px 28px;
-    display: grid;
-    gap: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-  }
-  
-  /* Boite qui contien les nouvelle */
-  .boite {
-    background-color:rgb(254, 254, 254);
-    padding: 8px;
-    height: 300px;
-  }
-  
-  .images{ /* images des articles */
-    width: 100px;
-    height: 100px;
-    border-radius: 8px;
-  
-  }
-  
-  .boite{
-    justify-content: center;
-    display: flex;
-    padding: 5px;
-    width: 80%;
-  }
-  
-  
->>>>>>> 9e810e29a1105250fdb4d9e7c0479eeb6803f8f6
 
 
 
