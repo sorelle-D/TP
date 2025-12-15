@@ -1,70 +1,120 @@
+
+
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 header{
-    font-size:24px ;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:24px ;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-  .grayhead{
-    background-color: rgb(222, 222, 222);
-    width: 100%;
-    height: 12px;
-  }
-   /* image de "mon compte" */
-  .imgcompte{
-    position: absolute; /* placer le logo au dessus de l'entete */
-    left: 70.7%; /* Centrer */
-    bottom: 93.5%; /* Centrer */
-    height: 24px;
-    width: 2%;
-  }
+.grayhead{
+  background-color: rgb(222, 222, 222);
+  width: 100%;
+  height: 12px;
+}
 
-  /* Premier menu */
-  .menu1{
-    background-color: #bff6df;
-    width: 100%;
-    height: 50px;
-  }
 
-  a{
-    color: black;
-    text-decoration: none;
-  }
+  /********************************************************/
 
-   /** entete contenant l'image**/
+
+ /* image de "mon compte" */
+.imgcompte{
+  height: 24px;
+  width: 13%;
+}
+
+/* Premier menu */
+.menu1{
+  background-color: rgb(25, 179, 134);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  gap : 100px;
+  align-items: center;
+}
+
+.menu1PourAutrePage{
+  background-color: rgb(174, 228, 207);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  gap : 100px;
+  align-items: center;
+}
+
+.acceuil{
+  margin-left: 60px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.titre{
+  display: flex;
+  padding-top: 7%;
+  padding-left: 12%;
+}
+
+
+  /********************************************************/
+
+
+ /** entete contenant l'image**/
+
+.entete{
+  background-color: rgb(39, 184, 138);
+  width: 100%;
+  height: 300px;
+}
+
+.entetePourAutrePage{
+  background-color:rgb(192, 246, 223);
+  width: 100%;
+  height: 300px;
+}
+
+/* imge du viage vert dans l'entete */
+.imageMenu{
+  position: relative; /* placer le logo au dessus de l'entete */
+  left: 40%;          /* Centrer*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 265px;
+}
+
+.logo{
+  float: left; /* placer le logo à gauche */
+  position: absolute; /* placer le logo au dessus de l'image */
+  height: 30%;
+  width: 15%;
+  top: 1px; /* ajoute l'espace depuis le haut de l'image */
+  left: 30px;
+}
+
+.menu2{
+  position: absolute; /* placer le menu2 au dessus de l'image */
+  top: 75px;              /* ajoute l'espace depuis le haut de l'image */
+  left: 35%;              /* centre */
+  display: flex;
+  gap: 100px;              /* espace les element entre eux */
+}
+
+.matiere{
+  padding-left: 15%;
+}
+
+/* images de la mine fleche */
+.flechecompte{
+  height: 30%;
   
-  .entete{
-    background-color:#bff6df ;
-    width: 100%;
-    height: 200px;
-  }
-
-  
-
-  .logo{
-    float: left; /* placer le logo à gauche */
-    position: absolute; /* placer le logo au dessus de l'image */
-    height: 30%;
-    width: 15%;
-    top: 1px; /* ajoute l'espace depuis le haut de l'image */
-  }
-
-  .menu2{
-    position: absolute; /* placer le menu2 au dessus de l'image */
-    top: 75px;              /* ajoute l'espace depuis le haut de l'image */
-    left: 36.5%;              /* centre */
-    display: flex;
-    gap: 70px;              /* espace les element entre eux */
-  }
-
-  /* images des minis fleches */
-  .fleche{
-    height: 40%;
-  }
-  .flechecompte{
-    height: 30%;
-    
-  }
-
-
+}
 
 
   /*.................................................................................*/
@@ -87,6 +137,7 @@ header{
     
     width: 90%;
     margin: 25px;
+    margin-left: 10%;
     }
 
 
@@ -137,6 +188,8 @@ font-size: 20px;
  justify-content: start;
  align-items: flex-start;
  gap: 20px;
+ padding-top: 100px;
+ padding-left: 100px;
 
 }
 
@@ -193,3 +246,85 @@ background-color: seagreen;
   padding-left: 322px;
 }
  
+
+
+
+
+  /********************************************************/
+
+  /* pied de page */
+
+
+  footer{
+    background-color:rgba(1, 191, 142);
+    width: 100%;
+    height:auto;
+    
+  
+    }
+  
+  
+    .HautFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+    }
+  
+  
+  
+    .media a img{
+      width: 50px;
+      height: 50px;
+      
+     
+    }
+  
+    .ligne{
+  
+      width: 90%;
+      border-width: 2px;
+      border-color: black;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  
+  
+  
+    .milieuFooter{
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      gap: 39%; /* espace entre les deux texte */
+    }
+  
+    .lienpied{
+      list-style: none;
+      text-align: right;
+    }
+  
+    .lienpied li {
+      padding-bottom: 7px;
+      padding-right: 20px;
+      
+    }
+  
+    .boutonfooter{
+  
+    border-radius: 99px; /*Contour arrondie*/
+    border: 1px,solid;
+    background-color: transparent;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-bottom: auto;
+    
+    }
+  
+    .copyright{
+      text-align: center;
+      color: white;
+      padding-bottom: 1%;
+      
+    }
+  
