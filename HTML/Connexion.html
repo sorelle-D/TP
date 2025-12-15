@@ -46,44 +46,49 @@
             
 
             <div class="image">
-                <img src="/style/imgs/Screen_Shot_2025-12-11_at_2.59.30_PM-removebg-preview.png" alt="pas d'image">
+                <img src="imgs/Screen_Shot_2025-12-11_at_2.59.30_PM-removebg-preview.png" alt="pas d'image">
             </div>
 
             <div class="formulaire">
                 <h1> Connexion</h1>
 
                 <form action="traitement.php" method="post">
+
             <p>
                 <label for="email">Adresse couriel :</label>
                 <div class="input-line">
-
-                <input type="email" id="email" name="email">
+                 <input type="email" id="email" name="email">
                 </div>
-
-                <br><br>
             </p>
 
-            <p>
-            <label for="password">Mot de passe :</label><br>
+            
 
-            <textarea id="message" name="message"></textarea>
+            <p>
+            <label for="password">Mot de passe :</label>
+            <div class="input-line">
+            <input type="password" id="password" name="password" >
+            <img src="imgs/eyes.png" alt="affiche le mot de passe "class="eye" onclick="togglePassword()">
+            </div>
+            
+             
+          
             </p>
 
-            <br>
+
+            <a href="Motdpasse.html" class="forgot" > Mot de passe oublié</a>
+            <br><br>
 
             <p>
-                <button type="submit">Se connecter</button>
+                <button type="submit" >Se connecter</button>
             </p>
         </form>
         <br>
 
-                <p>Pas encore de compte?
-                    <a href=" " title="S'inscrire" >  <b style="text-decoration: underline; ">S'inscrire</b></a>
+
+                <p>Pas encore de compte? <a href=" " title="S'inscrire" >  <b style="text-decoration: underline; ">S'inscrire</b></a>
                 </p>
-                <p>Besoin d'aide?
-                    <a href=" " title="contact" >  <b style="text-decoration: underline; ">Nous contacter</b></a>
-                /*jai ameliorer la ligne au dessous de nous contacter*/
-            </p>
+                <p>Besoin d'aide? <a href=" " title="contact" >  <b style="text-decoration: underline; ">Nous contacter</b></a>
+               </p>
                 
 
             </div>
@@ -91,6 +96,51 @@
         </div>
 
     </div>
+   
+
 
 </body>
+
+
+<footer>
+ <div class=HautFooter> 
+
+        <a href="instagrame.com">  <img src="/style/imgs/logo.png" style="height: 120px; width: 120px;"></a>
+
+      <div class="media" style="padding-right: 60px;">
+
+        <a href="https://facebook.com"  target="_blank">  <img src="/style/imgs/facebook.png"></a>
+        <a href="https://youtube.com"  target="_blank">  <img src="/style/imgs/youtube.png"></a>
+        <a href="https://instagram.com" target="_blank">  <img src="/style/imgs/insta.png"></a>
+        <a href="https://titok.com"  target="_blank">  <img src="/style/imgs/tiktok.png"></a>
+        
+    </div>
+
+    </div>
+
+   <hr class="ligne">
+
+
+    <div class="milieuFooter">
+      <p> Reçois toutes les infos et astuces d'éducavenir par courriel. <br>
+        À vos marque prêt étudié !!</p>
+
+          <ul class="lienpied">
+            <li>Équipe et carrières </li>
+            <li>Concours et sondages </li>
+            <li>Nos partenaire</li>
+            <li>Salle de presse </li>
+            <li>Protection des renseignements personnels</li>
+            <li>Conditions d'utilisation </li>
+            <li>Matériel promotionnel</li>
+          </ul>
+          </div>
+
+          <a href="apropos.html"> <button class="boutonfooter">Abonne-toi ici</button></a>
+          <p class="copyright" > © Édicavenir 2025</p>
+        
+    </div>
+    
+    
+</footer>
 </html>
