@@ -55,9 +55,9 @@ a{
   text-align: center;
 }
 
-.titre{
+.titreHead{
   display: flex;
-  padding-top: 7%;
+  padding-top: 12%;
   padding-left: 12%;
 }
 
