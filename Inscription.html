@@ -1,11 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="Inscription" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="StyleP.css">
+
 </head>
-<body>
+
+    <div class="images">
+
+     <header class="grayhead"></header>
+
+<header class="menu1" s>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; 
+    <a href="index.html">Acceuil</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+    <a href="apropos.html">À propos</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    <a href="apropos.html">À propos</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    <a href="apropos.html">Contact</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+    <a href="apropos.html">Inscription</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    <a href="apropos.html"> <img class="imgcompte" src="imgs/compte-removebg-preview.png" alt="">Mon compte <img class="flechecompte" src="imgs/fleche.PNG"></a>
+</header>
+
+
+<header class="entete" > 
     
+    <img class="logo" src="imgs/logo.png" alt="">
+    <div  class="menu2">
+        <a href=""> Matière <img class="fleche" src="imgs/fleche.PNG"></a>
+        <a href=""> Niveaux <img class="fleche" src="imgs/fleche.PNG"></a>
+        <a href=""> Explorer <img class="fleche" src="imgs/fleche.PNG"></a>  
+    </div>
+
+</header>
+
+         <!--------------------------------------------------------Body------------------------------------------------------------------------->
+
+<body> 
+     
+    <div class="BodyDuInscription">
+
+    <div class="imagesDuBody">
+
+<img src="imgs/Image.Inscription.png" alt="Vert" height="200px" width="300px" style="padding: 40px;"> 
+<img src="imgs/TrampolineInscription.png" alt="Trampoline" height="200" width="400">
+
+    </div>
+
+
+        <div class="InscriptionEtapes"  >  <!---La boite de inscription au complet-->
+
+
+
+            <!----------------------------------------------------Niveau et Province--------------------------------------------------------------------------------->
+
+     
+               <div class="NiveauEtProvince">  
+              
+                           <div class="Entree"> <label for="niveau">Niveau Scolaire*</label>
+                            <select id="niveau" required><option value="" disabled selected>Choisir</option></select></div>
+
+                            <div class="Entree"> <label for="province">Province de l'école*</label>
+                            <select id="province" required><option value="" disabled selected>Choisir</option></select></div>
+
+                       </div>
+
+                       <!---------------------------------------Adresse Courriel---------------------------------------------------------------------->
+
+               
+                        <div class="Entree" ><input type="email" placeholder="Adresse courriel" style="border: none; outline: none;"></div>
+
+                       
+               <!---------------------------------------------------Mot de passe------------------------------------------------------------------------------>
+                     
+
+                        <div class="Entree"><input type="password" placeholder="Mot de passe" id="mdp" style="border: none; outline: none;">
+                        </div>
+
+                        <div class="reglesMDP" style="margin-top: -3%"><span id="Caraceteres" style="background-color: antiquewhite; border-radius: 20px;">8 caractères ou plus</span>
+
+                         <span id="Majuscule" style="background-color: antiquewhite; border-radius: 20px;">1 Majuscule</span> 
+                         
+                         <span id="Chiffre" style="background-color: antiquewhite; border-radius: 20px;">1 chiffre</span>
+                          
+                        <span><a class="MDPoublie" href="https://www.alloprof.qc.ca/fr/auth/mot-de-passe-oublie" style="text-decoration: underline;">Mot de passe oublié</a></span>
+                        </div>
+
+
+                 <!--------------------------------------------------------Conditions d'utilisation---------------------------------------------------------------------------------------->      
+                         
+              
+                          <div class="Condition1"><input type="checkbox" required>Je confirme avoir 14 ans ou plus. Si j'ai 13 ans ou moins, mon parent ou mon tuteur 
+
+                          légal <br> confirme qu'il autorise la création de mon compte et mon utilisation des
+
+                         services d'Alloprof.* </div>
+
+
+
+
+
+                        <div class="Condition2"><input type="checkbox" required> J'accepte les 
+
+                        <a class="lien" href="https://www.alloprof.qc.ca/fr/pages/protection-des-renseignements-personnels-et-conditions-d-utilisation" target="_blank" alt="Conditions d'utilisation">
+
+                            Conditions d'utilisation et la Politique sur la protection des renseignements <br> personnels. *</a></div>
+
+
+
+                        
+                        <div class="Condition3"><input type="checkbox" required>Je veux recevoir des infos et des trucs personnalisés d'Alloprof par courriel.</div>
+             
+                        <!------------------------------------------------------------Bouton Suivant----------------------------------------------------------------------------->
+
+              
+                        <div class="PlaceBouton"><button class="Suivant" type="submit">Suivant</button></div>
+
+                      <!------------------------------------------------------------Compte Existant------------------------------------------------------------------------------------------------------>
+
+
+                      <div class="CompteExistant"><p>Déjà un compte? <a   style="text-decoration: underline;" href="./Connexion.html"><b>Se connecter</b></a></p> </div>
+
+        
+         </div>
+
+
+
+
+
+ 
+
+
+
+
+</div>
+  <script src="Options.js" defer></script>    
 </body>
 </html>
