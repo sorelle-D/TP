@@ -81,7 +81,7 @@ a{
 
 /* imge du viage vert dans l'entete */
 .imageMenu{
-  position: absolute; /* placer le logo au dessus de l'entete */
+  position: relative; /* placer le logo au dessus de l'entete */
   left: 40%;          /* Centrer*/
   margin-left: auto;
   margin-right: auto;
@@ -95,6 +95,7 @@ a{
   height: 30%;
   width: 15%;
   top: 1px; /* ajoute l'espace depuis le haut de l'image */
+  left: 30px;
 }
 
 .menu2{
@@ -128,14 +129,17 @@ a{
   height: 190px;
 }
 
-.BlocBox{
+.BlocBox{ /* le div qui contient les 6 boite*/
   display: flex;
   justify-content: space-around;
+  position: relative;
   gap: 16px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  top: -25px; /*remonte les boite au dessu de l'entete*/
 }
 
 .box{
+  position: relative;
   background-color: rgba(244, 242, 239);
   display: flex;
   gap: 30px;
@@ -144,14 +148,15 @@ a{
   box-shadow: 7px 7px #e3e3e3 ;
   width: 19%;
   height: 80px;
+  padding: 2px;
 }
 
 .imagebox{
   height: 40px; 
   width: 40px; 
 }
-.titre{
-  font-size:33px;
+.titres{
+  font-size:30px;
 }
 
 /********************************************************/
@@ -253,28 +258,41 @@ button{
     grid-template-columns: repeat(3, 1fr);
   }
 
- 
+ .textBoxApropos{
+
+  box-sizing: border-box;
+  margin-left: 0px;
+  padding: 25px; 
+ }
+
+ .texte{
+  text-align: justify;
+  font-size: 15px;
+  font-family:'Arial Narrow', Arial, sans-serif; 
+   font-weight: bold;
+ }
 
 
   .boxApropos{
+    position: relative;
     text-align: center;
     display: grid;
     background-color: rgb(245, 243, 239);
     box-shadow: 10px 10px rgb(239, 234, 228);
     width: 60%;
-    height: 110%;
+    height: 150%;
   }
 
 
 
 
   .flecheApropos{
-    text-align: end;
+   
+    position: absolute;
+    right: 18px;
+    bottom: 15px;
     font-size: 50px;
-    margin-left: 15%;
     color: aquamarine;
-    padding-top: 39%;
-    
   }
 
 
